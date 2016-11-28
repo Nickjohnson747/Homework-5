@@ -118,9 +118,11 @@ let $n = 17x + 2.5$
 
   $45x + 10 = 9 \mod 25$
 
-  $45x = -1 \mod 25 = -45 \mod 25$
+  $45x = -1 \mod 25$ 
   
-  _There is no positive value $x$ that solves this equation_
+  $x = \frac{-1 \mod 25} {45} = \frac{8} {15}$
+  
+
 
 
 * **[0.5 point]** Write a Haskell function on your own that solves any equation systems of the following form for input integer arguments $a, b, c, d$.
@@ -145,7 +147,7 @@ a. **[0.5 point]** Let $\phi$ be the Euler's totient function. Calculate $\phi(3
 
 * **[2 points]** Without using a calculator, compute $2016^{11} \mod 24$.
 ~ math
-    23
+    0
 ~
 
 # (Optional) Bonus problems (Step details are required to earn points.)
